@@ -1,40 +1,82 @@
+// import React from "react";
+// import { motion } from "framer-motion";
+
+// export default function Home() {
+//   return (
+//     <section
+//       id="home"
+//       className="min-h-screen flex items-center justify-center bg-gray-900 text-white px-6"
+//     >
+//       <div className="max-w-3xl text-center">
+//         <motion.h1
+//           className="text-4xl sm:text-5xl font-bold mb-4"
+//           initial={{ opacity: 0, y: -50 }}
+//           animate={{ opacity: 1, y: 0 }}
+//           transition={{ duration: 0.8 }}
+//         >
+//           Hi! I’m <span className="text-purple-400">Afnan</span>
+//         </motion.h1>
+
+//         <motion.p
+//           className="text-lg sm:text-xl text-gray-300 leading-relaxed"
+//           initial={{ opacity: 0 }}
+//           animate={{ opacity: 1 }}
+//           transition={{ delay: 0.2, duration: 0.8 }}
+//         >
+//           A passionate <span className="font-semibold">Fullstack Developer</span> 
+//           and <span className="font-semibold">BCA 2nd-year student</span> with a love 
+//           for creating clean, functional, and user-friendly web applications.  
+//           Currently exploring modern web technologies and aiming to dive deeper into  
+//           <span className="text-purple-400"> AI-driven development</span>.
+//         </motion.p>
+//       </div>
+//     </section>
+//   );
+// }
 import React from "react";
 import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-900 to-black text-white">
-      <div className="text-center px-6">
-        {/* Main heading */}
+    <section
+      id="home"
+      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#f4f4ed] via-[#c8d6ff] to-[#f7f7f7] text-gray-900 px-6"
+    >
+      <div className="max-w-3xl text-center">
         <motion.h1
-          initial={{ opacity: 0, y: -30 }}
+          className="text-4xl sm:text-5xl font-bold mb-4"
+          initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-5xl md:text-6xl font-bold mb-4"
         >
-          Hi, I’m <span className="text-purple-400">Afnan</span>
+          Hi! I’m{" "}
+          <span className="bg-gradient-to-r from-[#c9a14a] to-[#b3b3b3] bg-clip-text text-transparent">
+            Afnan
+          </span>
         </motion.h1>
 
-        {/* Subtitle */}
         <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          className="text-lg md:text-xl text-gray-300 mb-8"
+          className="text-lg sm:text-xl text-gray-700 leading-relaxed"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.8 }}
         >
-          Fullstack Developer / Student Developer
+          A passionate{" "}
+          <span className="font-semibold text-[#3b5998]">
+            Fullstack Developer
+          </span>{" "}
+          and{" "}
+          <span className="font-semibold text-[#3b5998]">
+            BCA 2nd-year student
+          </span>{" "}
+          with a love for crafting clean, functional, and user-friendly digital
+          experiences. Currently exploring modern web technologies and aiming
+          to dive deeper into{" "}
+          <span className="font-semibold text-[#c9a14a]">
+            AI-driven development
+          </span>
+          .
         </motion.p>
-
-        {/* Button */}
-        <motion.a
-          href="#projects"
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5, delay: 0.6 }}
-          className="px-6 py-3 bg-purple-500 hover:bg-purple-600 rounded-lg text-white font-medium shadow-lg transition-all"
-        >
-          View My Work
-        </motion.a>
       </div>
     </section>
   );

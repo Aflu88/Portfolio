@@ -45,6 +45,7 @@ export default function About() {
           <span className="bold">drawing</span>, learning new skills, and
           exploring emerging technologies. My goal is to create impactful,
           user-centered digital experiences that connect ideas to people.
+         I make it a habit to improve both my communication and reading skills, which together help boost my confidence.
         </motion.p>
 
         {/* Add this button container */}

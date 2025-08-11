@@ -14,7 +14,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Hi! I’m{" "}
+          Hi I’m{" "}
           <span className="bg-gradient-to-r from-[#c9a14a] to-[#b3b3b3] bg-clip-text text-transparent">
             Afnan
           </span>
@@ -35,7 +35,7 @@ export default function Home() {
             BCA 2nd-year student
           </span>{" "}
           with a love for crafting clean, functional, and user-friendly digital
-          experiences. Currently exploring modern web technologies and aiming
+          experiences.I Currently exploring modern web technologies and aiming
           to dive deeper into{" "}
           <span className="font-semibold text-[#c9a14a]">
             AI-driven development

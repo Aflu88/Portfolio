@@ -1,38 +1,3 @@
-// import React from "react";
-// import { motion } from "framer-motion";
-
-// export default function Home() {
-//   return (
-//     <section
-//       id="home"
-//       className="min-h-screen flex items-center justify-center bg-gray-900 text-white px-6"
-//     >
-//       <div className="max-w-3xl text-center">
-//         <motion.h1
-//           className="text-4xl sm:text-5xl font-bold mb-4"
-//           initial={{ opacity: 0, y: -50 }}
-//           animate={{ opacity: 1, y: 0 }}
-//           transition={{ duration: 0.8 }}
-//         >
-//           Hi! I’m <span className="text-purple-400">Afnan</span>
-//         </motion.h1>
-
-//         <motion.p
-//           className="text-lg sm:text-xl text-gray-300 leading-relaxed"
-//           initial={{ opacity: 0 }}
-//           animate={{ opacity: 1 }}
-//           transition={{ delay: 0.2, duration: 0.8 }}
-//         >
-//           A passionate <span className="font-semibold">Fullstack Developer</span> 
-//           and <span className="font-semibold">BCA 2nd-year student</span> with a love 
-//           for creating clean, functional, and user-friendly web applications.  
-//           Currently exploring modern web technologies and aiming to dive deeper into  
-//           <span className="text-purple-400"> AI-driven development</span>.
-//         </motion.p>
-//       </div>
-//     </section>
-//   );
-// }
 import React from "react";
 import { motion } from "framer-motion";
 
